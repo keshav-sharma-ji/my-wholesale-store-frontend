@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/styles.css"],"names":[],"mappings":"AAAA,4BAGC,eACD,CAEA,KACC,kBACD","file":"main.1d135774.chunk.css","sourcesContent":[".btn,\n.jumbotron,\n.nav :hover {\n\tborder-radius: 0px;\n}\n\nbody {\n\tbackground: #343a40;\n}\n\n/* footer {\n\tposition: absolute;\n\tbottom: 0px;\n\tright: 0px;\n\tleft: 0px;\n} */\n"]}
