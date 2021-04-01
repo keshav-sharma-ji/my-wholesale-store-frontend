@@ -48,7 +48,7 @@ const Cart = () => {
 		<Base title="Cart Page" description="Ready to checkout">
 			<div className="row">
 				<div className="col-6">
-					{products.length > 0 ? (
+					{products && products.length > 0 ? (
 						loadAllProducts(products)
 					) : (
 						<h3>No product in cart</h3>
