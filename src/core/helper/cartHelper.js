@@ -19,6 +19,10 @@ export const addItemToCart = (item, next) => {
 export const loadCart = () => {
 	if (typeof window !== undefined) {
 		if (localStorage.getItem("cart")) {
+			if (JSON.parse(localStorage.getItem("cart")) === undefined) {
+				let cart = [];
+				localStorage.setItem("cart", JSON.stringify(cart));
+			}
 			return JSON.parse(localStorage.getItem("cart"));
 		}
 	}
