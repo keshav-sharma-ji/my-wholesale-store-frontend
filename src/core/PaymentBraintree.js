@@ -81,9 +81,10 @@ const PaymentBraintree = ({
 
 	const getAmount = () => {
 		let amount = 0;
-		products.map((p) => {
-			amount = amount + p.price;
-		});
+		products &&
+			products.map((p) => {
+				amount = amount + p.price;
+			});
 		return amount;
 	};
 
